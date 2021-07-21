@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+.main{
+
+	height: 650px;
+	width: 100%;
+	
+}
+
+.mid{
+
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	
+	overflow: hidden;
+}
+
+.mid_top{
+
+	height: 80px;
+}
+
+.mid_top h2{
+
+	margin-top: 20px;
+	color: gray;
+
+}
+
+.mid_bottom{
+
+	height: 570px;
+	width: 100%;
+	
+	overflow: hidden;
+}
+
+.paralellogram{
+
+	
+	height: 50%;
+	width: 100%;
+}
+
+.one{
+
+	height: 150px;
+	width: 15px;
+	background-color: #7ABBB1;
+	transform: skew(-30deg);
+	margin-left: 140px;
+	margin-top: 50px; 
+	float: left;
+
+}
+
+.two{
+
+	height: 150px;
+	width: 15px;
+	background-color: #7ABBB1;
+	transform: skew(-30deg);
+	margin-left: -15px;
+	margin-top: 81px; 
+	float: left;
+
+}
+
+.section_one{
+
+	height: 100%;
+	width: 25%;
+	background-color: white;
+	float: left;
+	
+
+}
+
+.paralellogram{
+   position: relative;
+}
+
+.paralellogram img{
+
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: auto;
+
+	z-index: 10;
+	border: 3px solid #7ABBB1;
+
+}
+
+.text h3{
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #7ABBB1;
+}
+
+.text h4{
+
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: gray;
+}
+
+.text p{
+
+	text-align: center;
+	margin-top: 10px;
+	color: #9E9E9E;
+	padding: 0px 30px;
+}
+
+.section_two{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.section_two img{
+	border: 3px solid #089B9C;
+}
+
+.section_two .one{
+
+	background-color: #089B9C;
+}
+
+.section_two .two{
+
+	background-color: #089B9C;
+}
+
+.section_two h3{
+	color: #089B9C;
+}
+
+.section_three{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+
+.section_three img{
+	border: 3px solid #037F88;
+}
+
+.section_three .one{
+
+	background-color: #037F88;
+}
+
+.section_three .two{
+
+	background-color: #037F88;
+}
+
+.section_three h3{
+	color: #037F88;
+}
+
+.section_four{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.section_four img{
+	border: 3px solid #03656A;
+}
+
+.section_four .one{
+
+	background-color: #03656A;
+}
+
+.section_four .two{
+
+	background-color: #03656A;
+}
+
+.section_four h3{
+	color: #03656A;
+}
+
+

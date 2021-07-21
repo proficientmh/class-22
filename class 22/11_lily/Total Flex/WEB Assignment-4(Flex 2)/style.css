@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: serif;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	background-color: white;
+	height: 600px;
+}
+.mid{
+	background-color: white;
+	height: 600px;
+	width: 80%;
+	margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+	height: 250px;
+	width: 40%;
+	background-color: white;
+	position: relative;
+	margin: auto;
+}
+.img{
+	height: 200px;
+	width: 200px;
+	border: 3px solid #1B9EC0;
+	background-color: white;
+	text-align: center;
+	margin-left: 20px;
+}
+.img img{
+	height: 170px;
+	width: 170px;
+	margin: 15px;
+}
+.text{
+	position: absolute;
+	top: 20px;
+	left: 240px;
+}
+.text h2:nth-child(1){
+	color: #1B9EC0;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-image: linear-gradient(to bottom, #0C6F85, #15A2BD);
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+.card2 .img{
+	border: 3px solid #5780CB;
+}
+.card2 .circle{
+	background-image: linear-gradient(to bottom,#2A4A89,#5982CF)
+}
+.card2 h2:nth-child(1){
+	color: #5780CB;
+}
+.card3 .img{
+	border: 3px solid #5780CB;
+}
+.card3 .circle{
+	background-image: linear-gradient(to bottom,#2A4A89,#5982CF)
+}
+.card3 h2:nth-child(1){
+	color: #5780CB;
+}
+.header h1{
+	text-align: center;
+}
